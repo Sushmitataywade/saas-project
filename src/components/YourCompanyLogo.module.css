@@ -1,0 +1,220 @@
+.yourCompanyLogoChild {
+  width: 1200px;
+  height: 1754px;
+  position: relative;
+  background: linear-gradient(
+    180deg,
+    #000,
+    rgba(93, 44, 168, 0.85) 57.83%,
+    #000
+  );
+  display: none;
+  max-width: 100%;
+}
+.body,
+.h2 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+}
+.h2 {
+  font-size: inherit;
+  letter-spacing: -0.06em;
+  line-height: 62px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.body {
+  font-size: var(--body-large-size);
+  letter-spacing: -0.04em;
+  line-height: 31px;
+  font-weight: 400;
+  font-family: var(--body-bold);
+}
+.logoDefault,
+.logoDefaultWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.logoDefault {
+  align-self: stretch;
+  gap: var(--gap-xl);
+}
+.logoDefaultWrapper {
+  width: 540px;
+  max-width: 100%;
+}
+.appNightIcon {
+  align-self: stretch;
+  height: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 4px;
+  width: 100%;
+  transform: scale(1.071);
+}
+.navBarDesktop,
+.wrapperAppNight {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapperAppNight {
+  height: 678px;
+  position: relative;
+  flex-shrink: 0;
+}
+.navBarDesktop {
+  flex-direction: column;
+  gap: var(--gap-41xl);
+  max-width: 100%;
+  z-index: 1;
+}
+.h21 {
+  margin: 0;
+  width: 650px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.06em;
+  line-height: 60px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 1;
+}
+.h2Wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-4xs) 0 var(--padding-base);
+}
+.faqs,
+.formFAQ {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.formFAQ {
+  display: flex;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+  max-width: 100%;
+}
+.faqs {
+  height: 339px;
+  padding: 0 var(--padding-12xs) var(--padding-65xl-7);
+  box-sizing: border-box;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--h5-size);
+}
+.faqs,
+.footerS,
+.helixShape {
+  display: flex;
+  max-width: 100%;
+}
+.footerS {
+  width: 675px;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-28xl);
+}
+.helixShape {
+  width: 1077px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+.yourCompanyLogo {
+  align-self: stretch;
+  background: linear-gradient(
+    180deg,
+    #000,
+    rgba(93, 44, 168, 0.85) 57.83%,
+    #000
+  );
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-49xl) var(--padding-43xl) var(--padding-163xl)
+    var(--padding-27xl);
+  box-sizing: border-box;
+  gap: var(--gap-126xl);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--h2-size);
+  color: var(--color-white);
+  font-family: var(--body-small-tag);
+}
+@media screen and (max-width: 1200px) {
+  .navBarDesktop {
+    gap: var(--gap-11xl);
+  }
+  .yourCompanyLogo {
+    padding-top: var(--padding-25xl);
+    padding-bottom: var(--padding-99xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .h2,
+  .h21 {
+    font-size: var(--font-size-24xl);
+    line-height: 48px;
+  }
+  .yourCompanyLogo {
+    padding-top: var(--padding-10xl);
+    padding-bottom: var(--padding-58xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .faqs {
+    height: auto;
+  }
+  .footerS {
+    gap: var(--gap-4xl);
+  }
+  .yourCompanyLogo {
+    gap: var(--gap-53xl);
+    padding: var(--padding-25xl) var(--padding-12xl) var(--padding-99xl)
+      var(--padding-4xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .h2 {
+    font-size: var(--font-size-13xl);
+    line-height: 36px;
+  }
+  .body {
+    font-size: var(--h5-size);
+    line-height: 25px;
+  }
+  .h21 {
+    font-size: var(--font-size-13xl);
+    line-height: 36px;
+  }
+  .faqs,
+  .yourCompanyLogo {
+    padding-bottom: var(--padding-36xl);
+    box-sizing: border-box;
+  }
+  .yourCompanyLogo {
+    gap: var(--gap-17xl);
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-31xl);
+  }
+}

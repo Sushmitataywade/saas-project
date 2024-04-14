@@ -1,0 +1,68 @@
+.icons,
+.thisPageIs,
+.viewTheComplete {
+  position: relative;
+}
+.icons {
+  height: 16px;
+  width: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.viewTheCompleteKitParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 3px;
+}
+.thisPageIsIncludedInAFreParent {
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 0 4.5px;
+  max-width: 100%;
+}
+.bar,
+.desktop,
+.thisPageIsIncludedInAFreParent {
+  display: flex;
+  box-sizing: border-box;
+}
+.bar {
+  align-self: stretch;
+  background: linear-gradient(
+    90deg,
+    #feecff,
+    #fecaff 11.71%,
+    #feb5ff 26.8%,
+    #ffdbe7 40.18%,
+    #fff4d6 49.22%,
+    #f3fcd7 58.71%,
+    #d2f5ee 71.29%,
+    #c3efff 84.44%,
+    #fbefff
+  );
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 14px var(--padding-xl);
+  max-width: 100%;
+}
+.desktop {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-black);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-mini);
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--body-small-tag-size);
+  color: var(--color-black);
+  font-family: var(--body-small-tag);
+}
